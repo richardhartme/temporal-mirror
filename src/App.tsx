@@ -136,6 +136,22 @@ function App() {
           </div>
         )}
       </form>
+
+      <a
+        href="https://github.com/richardhartme/temporal-mirror"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-flex items-center gap-2 text-sm font-semibold text-emerald-300 underline-offset-4 hover:underline"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+          className="h-4 w-4 fill-current"
+        >
+          <path d="M12 0a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.4-4.04-1.4-.55-1.4-1.34-1.77-1.34-1.77-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.82 1.3 3.51.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.96 0-1.32.47-2.39 1.24-3.23-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.33 11.33 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.23 0 4.63-2.81 5.66-5.49 5.96.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 0" />
+        </svg>
+        View on GitHub
+      </a>
     </div>
   );
 }
